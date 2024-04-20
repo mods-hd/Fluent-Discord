@@ -6,10 +6,8 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /* Sections
@@ -44,12 +42,9 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
 }
 
 /**
@@ -57,10 +52,8 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /* Text-level semantics
@@ -77,12 +70,9 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
-  text-decoration: underline dotted;
-  /* 2 */
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -100,10 +90,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /**
@@ -153,14 +141,10 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
 }
 
 /**
@@ -168,8 +152,7 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 button,
-input {
-  /* 1 */
+input { /* 1 */
   overflow: visible;
 }
 
@@ -178,8 +161,7 @@ input {
  * 1. Remove the inheritance of text transform in Firefox.
  */
 button,
-select {
-  /* 1 */
+select { /* 1 */
   text-transform: none;
 }
 
@@ -228,18 +210,12 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  box-sizing: border-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  padding: 0;
-  /* 3 */
-  white-space: normal;
-  /* 1 */
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
 }
 
 /**
@@ -262,10 +238,8 @@ textarea {
  */
 [type=checkbox],
 [type=radio] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
 }
 
 /**
@@ -281,10 +255,8 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /**
@@ -299,10 +271,8 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /* Interactive
@@ -456,148 +426,148 @@ code.codeblock {
   border-color: rgba(255, 255, 255, 0.1581);
 }
 .grid .row .item.color.YellowGold {
-  background-color: #ffbb00;
+  background-color: hsl(44, 100%, 50%);
 }
 .grid .row .item.color.Gold {
-  background-color: darkorange;
+  background-color: hsl(33, 100%, 50%);
 }
 .grid .row .item.color.OrangeBright {
-  background-color: #f8630d;
+  background-color: hsl(22, 94%, 51%);
 }
 .grid .row .item.color.OrangeDark {
-  background-color: #cb5210;
+  background-color: hsl(21, 85%, 43%);
 }
 .grid .row .item.color.Rust {
-  background-color: #da3b01;
+  background-color: hsl(16, 99%, 43%);
 }
 .grid .row .item.color.PaleRust {
-  background-color: #ef6a52;
+  background-color: hsl(9, 83%, 63%);
 }
 .grid .row .item.color.BrickRed {
-  background-color: #d13339;
+  background-color: hsl(358, 63%, 51%);
 }
 .grid .row .item.color.ModRed {
-  background-color: #ff4242;
+  background-color: hsl(0, 100%, 63%);
 }
 .grid .row .item.color.PaleRed {
-  background-color: #e74653;
+  background-color: hsl(355, 77%, 59%);
 }
 .grid .row .item.color.Red {
-  background-color: #e81123;
+  background-color: hsl(355, 86%, 49%);
 }
 .grid .row .item.color.RoseBright {
-  background-color: #eb005e;
+  background-color: hsl(336, 100%, 46%);
 }
 .grid .row .item.color.Rose {
-  background-color: #c20051;
+  background-color: hsl(335, 100%, 38%);
 }
 .grid .row .item.color.PlumLight {
-  background-color: #e6008e;
+  background-color: hsl(323, 100%, 45%);
 }
 .grid .row .item.color.Plum {
-  background-color: #bd0074;
+  background-color: hsl(323, 100%, 37%);
 }
 .grid .row .item.color.OrchidLight {
-  background-color: #c238b2;
+  background-color: hsl(307, 55%, 49%);
 }
 .grid .row .item.color.Orchid {
-  background-color: #990087;
+  background-color: hsl(307, 100%, 30%);
 }
 .grid .row .item.color.DefaultBlue {
-  background-color: #0076d6;
+  background-color: hsl(207, 100%, 42%);
 }
 .grid .row .item.color.NavyBlue {
-  background-color: #0065b3;
+  background-color: hsl(206, 100%, 35%);
 }
 .grid .row .item.color.PurpleShadow {
-  background-color: #908dd8;
+  background-color: hsl(242, 49%, 70%);
 }
 .grid .row .item.color.PurpleShadowDark {
-  background-color: #6d6bd6;
+  background-color: hsl(241, 57%, 63%);
 }
 .grid .row .item.color.IrisPastel {
-  background-color: #8865b8;
+  background-color: hsl(265, 37%, 56%);
 }
 .grid .row .item.color.IrisSpring {
-  background-color: #734da8;
+  background-color: hsl(265, 37%, 48%);
 }
 .grid .row .item.color.VioletRedLight {
-  background-color: #b147c2;
+  background-color: hsl(292, 50%, 52%);
 }
 .grid .row .item.color.VioletRed {
-  background-color: #881797;
+  background-color: hsl(293, 74%, 34%);
 }
 .grid .row .item.color.CoolBlueBright {
-  background-color: #009abd;
+  background-color: hsl(191, 100%, 37%);
 }
 .grid .row .item.color.CoolBlue {
-  background-color: #2d7d9a;
+  background-color: hsl(196, 55%, 39%);
 }
 .grid .row .item.color.Seafoam {
-  background-color: #00b5c2;
+  background-color: hsl(184, 100%, 38%);
 }
 .grid .row .item.color.SeafoamTeal {
-  background-color: #038387;
+  background-color: hsl(182, 96%, 27%);
 }
 .grid .row .item.color.MintLight {
-  background-color: #00b395;
+  background-color: hsl(170, 100%, 35%);
 }
 .grid .row .item.color.MintDark {
-  background-color: #018472;
+  background-color: hsl(172, 99%, 26%);
 }
 .grid .row .item.color.TurfGreen {
-  background-color: #00cc69;
+  background-color: hsl(151, 100%, 40%);
 }
 .grid .row .item.color.SportGreen {
-  background-color: #10893e;
+  background-color: hsl(143, 79%, 30%);
 }
 .grid .row .item.color.Grey {
-  background-color: #7b7574;
+  background-color: hsl(10, 3%, 47%);
 }
 .grid .row .item.color.GreyBrown {
-  background-color: #5c5957;
+  background-color: hsl(24, 3%, 35%);
 }
 .grid .row .item.color.SteelBlue {
-  background-color: #677589;
+  background-color: hsl(215, 14%, 47%);
 }
 .grid .row .item.color.MetalBlue {
-  background-color: #515c6c;
+  background-color: hsl(215, 14%, 37%);
 }
 .grid .row .item.color.PaleMoss {
-  background-color: #567b73;
+  background-color: hsl(166, 18%, 41%);
 }
 .grid .row .item.color.Moss {
-  background-color: #496961;
+  background-color: hsl(165, 18%, 35%);
 }
 .grid .row .item.color.MeadowGreen {
-  background-color: #488005;
+  background-color: hsl(87, 93%, 26%);
 }
 .grid .row .item.color.Green {
-  background-color: #107a10;
+  background-color: hsl(120, 77%, 27%);
 }
 .grid .row .item.color.Overcast {
-  background-color: #757575;
+  background-color: hsl(0, 0%, 46%);
 }
 .grid .row .item.color.Storm {
-  background-color: #4c4a48;
+  background-color: hsl(30, 3%, 29%);
 }
 .grid .row .item.color.BlueGrey {
-  background-color: #68787d;
+  background-color: hsl(194, 9%, 45%);
 }
 .grid .row .item.color.GreyDark {
-  background-color: #4a5459;
+  background-color: hsl(200, 9%, 32%);
 }
 .grid .row .item.color.LiddyGreen {
-  background-color: #647d64;
+  background-color: hsl(120, 11%, 44%);
 }
 .grid .row .item.color.Sage {
-  background-color: #535f55;
+  background-color: hsl(130, 7%, 35%);
 }
 .grid .row .item.color.CamouflageDesert {
-  background-color: #827445;
+  background-color: hsl(46, 31%, 39%);
 }
 .grid .row .item.color.Camouflage {
-  background-color: #7d725e;
+  background-color: hsl(39, 14%, 43%);
 }
 
 .divider {
