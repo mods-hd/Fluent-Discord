@@ -1,7 +1,7 @@
 /**
  * @name Fluent Discord
  * @author TakosThings
- * @version 1.10.2
+ * @version 1.10.6
  * @description Fluent theme for Discord (🔄 Auto-updating)
  * @invite ZYrCacRuez
  * @source https://github.com/TakosThings/Fluent-Discord
@@ -31,6 +31,7 @@
   --fluent-acrylic-background-dimness: 75%;
   --fluent-acrylic-background-saturate: 140%;
   --fluent-guilds-icon-size: 24px;
+  --fluent-show-avatar-decorations: none;
 }
 
 /**
