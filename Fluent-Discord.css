@@ -1694,8 +1694,9 @@ html[lang^=en-].theme-dark .wrapper__4e6b6 .button_d4bf9b[aria-label] svg {
   padding-right: 17px;
   padding-left: 15px;
 }
-.theme-dark .form_d8a4a1::before,
-.theme-dark .submitContainer-1DHMA0::before {
+.theme-dark .form_d8a4a1::before, .theme-dark .form_d8a4a1::after,
+.theme-dark .submitContainer-1DHMA0::before,
+.theme-dark .submitContainer-1DHMA0::after {
   display: none;
 }
 .theme-dark .form_d8a4a1 .channelTextArea_c2094b,
@@ -6140,7 +6141,7 @@ html[lang^=en-].theme-dark .container_bd15da .actionButton__2b4bb svg {
   color: rgba(255, 255, 255, 0.786) !important;
 }
 .theme-dark .sidebar__02e8d .info__755e1::before {
-  content: "Fluent Discord 1.10.5";
+  content: "Fluent Discord 1.10.6";
   color: rgba(255, 255, 255, 0.786);
   font-size: 12px;
   line-height: 16px;
