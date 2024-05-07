@@ -3280,8 +3280,9 @@ html[lang^=en-].theme-dark .toolbar__62fb5 .iconWrapper_de6cd1 .controlIcon-35oS
   margin: 0 4px;
   display: flex;
 }
-.theme-dark .wrapper__6bf2d .videoControls_af6621 .bottomControls__72d8d .controlButton__863c7.contextMenuContainer__7fb37 svg {
+.theme-dark .wrapper__6bf2d .videoControls_af6621 .bottomControls__72d8d .controlButton__863c7.contextMenuContainer__7fb37 .svg_bb7847 {
   width: 72px !important;
+  transform: scale(1.75, 1.75) translate(0, 7px) !important;
 }
 .theme-dark .wrapper__6bf2d .videoControls_af6621 .bottomControls__72d8d .controlButton__863c7.contextMenuContainer__7fb37 foreignObject {
   mask: none;
@@ -3510,11 +3511,11 @@ html[lang^=en-].theme-dark .wrapper__4d4fe .button__581d0[aria-label] svg {
   text-transform: none;
 }
 
-.theme-dark .profilePanel_e2cafe .userProfileOuterUnthemed_e14365 {
+.theme-dark .profilePanel_e2cafe .userProfileOuterUnthemed__9741c {
   background-color: transparent;
   border-left: 1px solid rgba(0, 0, 0, 0.25);
 }
-.theme-dark .profilePanel_e2cafe .userPanelInnerThemed_c2aed9 {
+.theme-dark .profilePanel_e2cafe .userPanelInnerThemed__651e4 {
   background: rgba(58, 58, 58, 0.3);
 }
 .theme-dark .profilePanel_e2cafe .title__392bc,
@@ -3525,7 +3526,7 @@ html[lang^=en-].theme-dark .wrapper__4d4fe .button__581d0[aria-label] svg {
   line-height: 20px;
   text-transform: none;
 }
-.theme-dark .profilePanel_e2cafe .overlayBackground__2666e {
+.theme-dark .profilePanel_e2cafe .overlayBackground__345c9 {
   background-color: rgba(255, 255, 255, 0.0359);
 }
 
@@ -4958,7 +4959,7 @@ html[lang^=en-].theme-dark .container_bd15da .actionButton__2b4bb svg {
 .theme-dark .avatar__445f3 svg circle {
   display: none;
 }
-.theme-dark .overlayBackground__2666e {
+.theme-dark .overlayBackground__345c9 {
   border-radius: 4px;
 }
 .theme-dark .tabBarContainer_b283be {
@@ -5005,18 +5006,18 @@ html[lang^=en-].theme-dark .container_bd15da .actionButton__2b4bb svg {
   border-radius: 50%;
 }
 
-.theme-dark .userPopoutOuter__3884e .menu__088f7.menu__13d0c {
+.theme-dark .userPopoutOuter_d67f56 .menu__088f7.menu__13d0c {
   background-color: transparent;
   border: 0;
   box-shadow: none;
 }
-.theme-dark .userPopoutOuter__3884e .menu__088f7.menu__13d0c::before {
+.theme-dark .userPopoutOuter_d67f56 .menu__088f7.menu__13d0c::before {
   content: unset;
 }
-.theme-dark .userPopoutOuter__3884e .menu__088f7.menu__13d0c .separator__174fc {
+.theme-dark .userPopoutOuter_d67f56 .menu__088f7.menu__13d0c .separator__174fc {
   display: none;
 }
-.theme-dark .userPopoutOuter__3884e .menu__088f7.menu__13d0c .item__183e8 .iconContainerLeft__80d26 {
+.theme-dark .userPopoutOuter_d67f56 .menu__088f7.menu__13d0c .item__183e8 .iconContainerLeft__80d26 {
   display: none;
 }
 
@@ -5898,37 +5899,37 @@ html[lang^=en-].theme-dark .container_bd15da .actionButton__2b4bb svg {
   color: rgba(255, 255, 255, 0.786);
 }
 
-.theme-dark .userPopoutOuter__3884e {
+.theme-dark .userPopoutOuter_d67f56 {
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.14);
 }
-.theme-dark .userPopoutOuter__3884e .userProfileInnerThemedNonPremium_ed9022 {
+.theme-dark .userPopoutOuter_d67f56 .userProfileInnerThemedNonPremium_b64fb4 {
   background: linear-gradient(0deg, rgba(32, 32, 32, 0.5), rgba(32, 32, 32, 0.5)), rgba(32, 32, 32, 0.96);
   border: 1px solid rgba(117, 117, 117, 0.4);
   border-radius: 8px;
 }
-.theme-dark .userPopoutOuter__3884e .userProfileInnerThemedNonPremium_ed9022 .overlayBackground__2666e {
+.theme-dark .userPopoutOuter_d67f56 .userProfileInnerThemedNonPremium_b64fb4 .overlayBackground__345c9 {
   background: rgba(255, 255, 255, 0.0359);
   border-radius: 4px;
 }
-.theme-dark .userPopoutOuter__3884e .overlayBackground__2666e {
+.theme-dark .userPopoutOuter_d67f56 .overlayBackground__345c9 {
   border-radius: 4px;
 }
-.theme-dark .userPopoutOuter__3884e .scroller_f9a667 {
+.theme-dark .userPopoutOuter_d67f56 .scroller_f9a667 {
   padding: 0 12px !important;
   overflow-y: auto !important;
 }
-.theme-dark .userPopoutOuter__3884e .upsell-27kXsw {
+.theme-dark .userPopoutOuter_d67f56 .upsell-27kXsw {
   display: none;
 }
-.theme-dark .userPopoutOuter__3884e .title__392bc,
-.theme-dark .userPopoutOuter__3884e .headerText_c0138d {
+.theme-dark .userPopoutOuter_d67f56 .title__392bc,
+.theme-dark .userPopoutOuter_d67f56 .headerText_c0138d {
   font-feature-settings: "fina" 1, "init" 1;
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
   text-transform: none;
 }
-.theme-dark .userPopoutOuter__3884e .role_d81130 {
+.theme-dark .userPopoutOuter_d67f56 .role_d81130 {
   padding: 4px 4px 4px 0px;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.0698);
@@ -5937,30 +5938,30 @@ html[lang^=en-].theme-dark .container_bd15da .actionButton__2b4bb svg {
   font-weight: 400;
   line-height: 16px;
 }
-.theme-dark .userPopoutOuter__3884e .role_d81130.addButton__6f12b {
+.theme-dark .userPopoutOuter_d67f56 .role_d81130.addButton__6f12b {
   padding: 4px;
 }
-.theme-dark .userPopoutOuter__3884e .messageInputContainer_a93946 {
+.theme-dark .userPopoutOuter_d67f56 .messageInputContainer_a93946 {
   border: 0;
 }
-.theme-dark .userPopoutOuter__3884e .assetsLargeImage__57902 {
+.theme-dark .userPopoutOuter_d67f56 .assetsLargeImage__57902 {
   border-radius: 4px;
 }
-.theme-dark .userPopoutOuter__3884e .timeBarUserPopoutV2__5d401 .bar_e63719 {
+.theme-dark .userPopoutOuter_d67f56 .timeBarUserPopoutV2__5d401 .bar_e63719 {
   height: 3px;
   background-color: rgba(255, 255, 255, 0.0698);
 }
-.theme-dark .userPopoutOuter__3884e .timeBarUserPopoutV2__5d401 .barInner__0f713 {
+.theme-dark .userPopoutOuter_d67f56 .timeBarUserPopoutV2__5d401 .barInner__0f713 {
   height: 3px;
   background-color: hsl(var(--fluent-accent-hue-sat), var(--fluent-accent-lightness));
 }
-.theme-dark .userPopoutOuter__3884e .timeBarUserPopoutV2__5d401 .text__6822d {
+.theme-dark .userPopoutOuter_d67f56 .timeBarUserPopoutV2__5d401 .text__6822d {
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
   color: rgba(255, 255, 255, 0.5442);
 }
-.theme-dark .userPopoutOuter__3884e .disabledButtonWrapper_b04230 {
+.theme-dark .userPopoutOuter_d67f56 .disabledButtonWrapper_b04230 {
   display: none;
 }
 
@@ -6141,7 +6142,7 @@ html[lang^=en-].theme-dark .container_bd15da .actionButton__2b4bb svg {
   color: rgba(255, 255, 255, 0.786) !important;
 }
 .theme-dark .sidebar__02e8d .info__755e1::before {
-  content: "Fluent Discord 1.10.6";
+  content: "Fluent Discord 1.10.7";
   color: rgba(255, 255, 255, 0.786);
   font-size: 12px;
   line-height: 16px;
