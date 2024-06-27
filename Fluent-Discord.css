@@ -1239,12 +1239,19 @@ html.theme-dark.app-focused .winButton_a934d8 {
   line-height: 20px;
 }
 
-html[lang^=en-].theme-dark .panels_a4d4d9 .button_dd4f85:not(.rtcConnectionStatusLabel_c0cb95)::before {
+html[lang^=en-].theme-dark .panels_a4d4d9 .button_dd4f85::before {
   font-family: "Segoe Fluent Icons", "Segoe MDL2 Assets";
   font-size: 16px;
 }
-html[lang^=en-].theme-dark .panels_a4d4d9 .button_dd4f85:not(.rtcConnectionStatusLabel_c0cb95) .contents_dd4f85 {
+html[lang^=en-].theme-dark .panels_a4d4d9 .button_dd4f85 .contents_dd4f85 {
   display: none;
+}
+
+.rtcConnectionStatus_c02c63 .contents_dd4f85 {
+  display: block !important;
+}
+.rtcConnectionStatus_c02c63 .contents_dd4f85 .rtcConnectionStatusLabel_c02c63 {
+  font-weight: 500;
 }
 
 .theme-dark .channelTextArea_a7d72e:focus-within .autocomplete_f23da8 {
@@ -6143,7 +6150,7 @@ html[lang^=en-].theme-dark .container_c2739c .actionButton_e01b91 svg {
   color: rgba(255, 255, 255, 0.786) !important;
 }
 .theme-dark .sidebar_c25c6d .info_c5a741::before {
-  content: "Fluent Discord 1.10.9";
+  content: "Fluent Discord 1.10.10";
   color: rgba(255, 255, 255, 0.786);
   font-size: 12px;
   line-height: 16px;
